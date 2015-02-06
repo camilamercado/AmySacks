@@ -1,0 +1,134 @@
+
+.brand_work {
+
+	width: auto;
+	height: auto;
+	min-height: 800px;
+	position: absolute;
+	margin-left: 50%;
+	left: -375px;
+	top: 18%;
+}
+
+.brand_work .main {
+	width: auto;
+	min-width: 450px;
+	height: auto;
+	/*background-color: lavender;*/
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.brand_work .subright {
+	width: 350px;
+	height: auto;
+	/*background-color: lightgrey;*/
+	float: left;
+}
+
+.brand_work .subbottom {
+	width: 630px;
+	height: 250px;
+	/*background-color: ghostwhite;*/
+	float: left;
+}
+
+.brand_work .subright img{
+	margin-right:10px;
+}
+
+.brand_work .border {
+	display: none;
+}
+
+.main p {
+	font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight: 100; letter-spacing: 1px;
+	width: 600px;
+	text-align: center;
+	margin-top: -250px;
+	position: absolute;
+	font-size: 45px;
+	color: lightgrey;
+}
+
+
+/***************TABLET****************/
+.brand_titleT {
+	font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight: 100; letter-spacing: 1px;
+   	font-weight: 150;
+   	font-size: 28px;
+	margin-bottom: 20px;
+	position: absolute;
+	top: -60px;
+}
+
+.brand_titleT:hover {
+	color: silver !important;
+	-webkit-transition: color 0.3s ease;
+	-moz-transition: color 0.3s ease;
+	-opera-transition: color 0.3s ease;
+}
+
+.brand_workT {
+
+	width: 500px;
+	height: auto;
+	min-height: 800px;
+	position: absolute;
+	margin-left: 50%;
+	left: -250px;
+	/*background: red;*/
+	top: 160px;
+}
+
+.brand_workT .main img{
+	width: 500px;
+	height: auto;
+	/*background-color: lavender;*/
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 100px;
+}
+
+.brand_workT .subright {
+	position: absolute;
+	top: 950px;
+	/*background: seagreen;*/
+	height: 150px;
+	width: 500px;
+}
+
+.brand_workT .subbottom {
+	position: absolute;
+	top: 430px;
+	/*background: lavender;*/
+	height: 200px;
+	width: 500px;
+}
+
+.brand_workT .subright img{
+	width: 200px;
+	margin-right:20px;
+}
+
+.brand_workT .subright .slideD{
+	width: 90%;
+	height: auto;
+	border: none;
+}
+
+.brand_workT .subbottom img{
+	width: 140px;
+	margin-right:20px;
+}
+
+.brand_workT .border {
+	border-top: 1px dashed lightgrey;
+	margin-top: 100px;
+	float: left;
+	height: 2px;
+	width: 100%;
+	padding-top: 40px;
+
+}

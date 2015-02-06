@@ -1,0 +1,162 @@
+body {
+	min-height: 1000px;
+}
+
+@font-face {
+font-family: HelveticaNeue-Light;
+src: url("css/HelveticaNeue-UltraLight.otf") format("opentype");
+}
+
+.topNav {
+	width: 100%;
+	height: 140px;
+	font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight: 100; letter-spacing: 1px;
+   	font-weight: 150;
+   	background: white;
+/*   	border-bottom: 1px solid #A8A8A8;*/
+}
+
+.topNav ul {
+	position: absolute;
+	height: 100px;
+	text-decoration: none;
+	width: 100%;
+	top: 50px;
+	font-size: 25px;
+	text-align: center;
+	margin-left: 20px;
+
+}
+
+
+.topNav ul li {
+	display: inline;
+	margin-right: 140px;
+	text-align: center;
+	
+}
+
+.topNav ul li:hover {
+	color: #A8A8A8 ;
+}
+
+.topNav a {
+	text-decoration: none;
+	color: black;
+}
+
+.sideNav {
+	top: 160px;
+	width: 170px;
+	/*background: lavender;*/
+	border-right: 1px dashed lightgrey;
+	 
+	position: fixed;
+	margin-left: 50%;
+	left: -550px;
+}
+
+.sideNav ul {
+	text-decoration: none;
+	text-align: right;
+	 list-style-type: none;
+	 color: black ;
+	 margin-right: 10px;
+}
+
+.sideNav a{
+	text-decoration: none;
+	font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight: 100; letter-spacing: 1px;
+   	font-weight: 150;
+   	background: white;
+   	color:black;
+
+}
+
+.italics a{
+	color : grey !important;
+	-webkit-transition: color 0.3s ease;
+	-moz-transition: color 0.3s ease;
+	-opera-transition: color 0.3s ease;
+
+}
+
+.italics {
+	margin-right: 15px;
+}
+
+.italics a:hover,
+.sideNav a:hover {
+	color : darkseagreen !important;
+	-webkit-transition: color 0.2s ease;
+	-moz-transition: color 0.2s ease;
+	-opera-transition: color 0.2s ease;
+
+}
+
+.main h2 {
+	font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight: 100; letter-spacing: 1px;
+   	font-weight: 150;
+   	background: white;
+   	color:black;
+   	font-size: 18px;
+
+}
+
+.main audio {
+	width: 600px;
+}
+
+.main p {
+	font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight: 100; letter-spacing: 1px;
+	width: 600px;
+	text-align: center;
+	margin-top: -200px;
+	position: absolute;
+	font-size: 45px;
+	color: lightgrey;
+}
+
+.main p:hover {
+	color: white;
+}
+
+/**************************MOBILE*****************************/
+
+.topNavM {
+	width: 100%;
+	height: 30px;
+	font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight: 100; letter-spacing: 1px;
+   	font-weight: 150;
+   	background: white;
+   	border-bottom: 1px solid lightgrey;
+}
+
+.topNavM ul {
+	position: absolute;
+	height: 30px;
+	text-decoration: none;
+	width: 100%;
+	top: 2px;
+	font-size: 15px;
+	text-align: left !important;
+	z-index: 1;
+	margin-left: -32px;
+
+}
+
+.topNavM a {
+	text-decoration: none;
+}
+
+
+.topNavM ul li {
+	display: inline;
+	margin-right: 200px;
+	color: #A8A8A8 ;
+}
+
+.topNavM li:hover {
+	color: black!important ;
+}
+

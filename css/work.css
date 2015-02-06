@@ -1,0 +1,139 @@
+.sideNav {
+	top: 13%;
+	width: 170px;
+	/*background: lavender;*/
+	border-right: 1px dashed lightgrey;
+	 
+	position: fixed;
+	margin-left: 50%;
+	left: -620px;
+}
+
+.work {
+
+	font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight: 100; letter-spacing: 1px;
+   	font-weight: 150;
+
+	width: 880px;
+	height: auto;
+	position: absolute;
+	margin-top: 7%;
+	margin-left: 50%;
+	left: -460px;
+	
+	/*border: 1px solid grey;*/
+}
+
+#gridMod {
+
+	width: 250px;
+	height: 150px;
+	float: left;
+	margin-left: 40px;
+	margin-bottom: 100px;
+
+}
+
+#gridMod img {
+	width:250px;
+	height: 150px;
+	opacity: 0.8;
+	border: 1px solid lightgrey;
+}
+
+
+#gridMod img:hover {
+	
+	/*border: 1px solid black;*/
+	color: black;
+	opacity: 1;
+	-webkit-transition: opacity 0.5s ease;
+	-moz-transition: opacity 0.5s ease;
+	-opera-transition: opacity 0.5s ease;
+}
+
+#gridMod a {
+	
+	text-decoration: none;
+	width: 250px;
+	color: black;
+	font-size: 28px;
+	opacity: 1;
+	text-align: center;
+	position: absolute;
+
+}
+
+/***************Tablet*****************/
+
+.tWork {
+
+	width: 650px;
+	height: auto;
+	position: absolute;
+	margin-top: 80px;
+	margin-left: 50%;
+	left: -325px;
+	/*border: 1px solid lavender;*/
+}
+
+.tWork #gridMod {
+
+	width: 200px;
+	height: 112px;
+	/*border: 1px solid seagreen;*/
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 60px;
+}
+
+.tWork #gridMod img {
+
+	width: 200px;
+	height: 112px;
+
+}
+
+.tWork #gridMod a {
+	position: absolute;
+	width: 200px;
+	margin-top: 0px;
+	font-size: 22px;
+	text-align: center;
+}
+
+/****************Mobile*****************/
+
+.mWork {
+
+	width: 250px;
+	height: auto;
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 50%;
+	left: -125px;
+	/*border: 1px solid lavender;*/
+}
+
+.mWork #gridMod {
+
+	width: 250px;
+	height: 150px;
+	/*border: 1px solid black;*/
+	float: left;
+	margin-left: 0px;
+	margin-bottom: 100px;
+}
+
+.mWork #gridMod a {
+
+	text-decoration: none;
+	width: 250px;
+	color: black;
+	font-size: 22px;
+	opacity: 1;
+	text-align: center;
+	position: absolute;
+
+}
+

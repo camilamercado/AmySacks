@@ -1,0 +1,144 @@
+@font-face {
+font-family: HelveticaNeue-Light;
+src: url("css/HelveticaNeue-UltraLight.otf") format("opentype");
+}
+
+.topNav {
+	width: 100%;
+	height: 30px;
+	font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight: 100; letter-spacing: 1px;
+   	font-weight: 150;
+   	background: white;
+   	border-bottom: 1px dashed black;
+}
+
+.topNav ul {
+	position: absolute;
+	height: 30px;
+	text-decoration: none;
+	width: 100%;
+	top: -9px;
+	font-size: 20px;
+	text-align: left !important;
+	z-index: 1;
+	color: black;
+
+}
+
+.topNavM a {
+	text-decoration: none;
+}
+
+
+.topNav ul li {
+	display: inline;
+	margin-right: 15px;
+	color: black ;
+}
+
+.topNav li:hover {
+	color: #A8A8A8!important ;
+}
+
+
+.sideNav {
+	top: 160px;
+	width: 170px;
+	/*background: lavender;*/
+	border-right: 1px dashed lightgrey;
+	 
+	position: fixed;
+	margin-left: 50%;
+	left: -550px;
+}
+
+.sideNav ul {
+	text-decoration: none;
+	text-align: right;
+	 list-style-type: none;
+	 color: black ;
+	 margin-right: 10px;
+}
+
+.sideNav a{
+	text-decoration: none;
+	font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight: 100; letter-spacing: 1px;
+   	font-weight: 150;
+   	background: white;
+   	color:black;
+
+}
+
+
+
+.brand_title {
+	width: 100%;
+	height: 250px;
+	position: absolute;
+	font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight: 100; letter-spacing: 1px;
+   	font-weight: 150;
+   	font-size: 28px;
+   	text-align: center;
+   	top: 18%;
+   	/*margin-top: -10px;*/
+}
+
+
+.brand_work {
+
+	width: 600px;
+	height: auto;
+	min-height: 800px;
+	position: absolute;
+	margin-left: 50%;
+	left: -300px;
+	/*background: lavender;*/
+	top: 18%;
+}
+
+/*.brand_work .main img,
+.brand_work .main video {
+	margin-bottom: -4px;
+}
+
+.brand_work .subright img {
+	margin-bottom: 20px;
+}*/
+
+
+/**************************TABLET*****************************/
+.topNavT {
+	width: 100%;
+	height: 30px;
+	font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight: 100; letter-spacing: 1px;
+   	font-weight: 150;
+   	background: white;
+   	border-bottom: 1px dashed lightgrey;
+}
+
+.topNavT ul {
+	position: absolute;
+	height: 30px;
+	text-decoration: none;
+	width: 100%;
+	top: 2px;
+	font-size: 15px;
+	text-align: left !important;
+	z-index: 1;
+
+}
+
+.topNavT a {
+	text-decoration: none;
+}
+
+.topNavT ul li {
+	display: inline;
+	margin-right: 30px;
+	color: #A8A8A8 ;
+}
+
+.topNavT li:hover {
+	color: black!important ;
+}
+
