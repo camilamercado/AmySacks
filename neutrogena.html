@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		
+		<link href="css/base.css" rel="stylesheet" />
+		<link href="css/template.css" rel="stylesheet" />
+		<link href="css/test.css" rel="stylesheet" />
+
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<link href="intention/examples/grid/css/responsivegrid.css" rel="stylesheet" />
+		<script src="intention/test/vendor/underscore.js"></script>
+	    <script src="intention/test/vendor/jquery.js"></script>
+	    <script src="intention/intention.js"></script>
+	    <script src="intention/context.js"></script>
+		
+	</head>
+
+	<body in data-in-base-class="" class="standard" data-in-tablet-class="tablet" data-in-standard-class="standard" data-in-mobile-class="mobile">
+
+		<div class="fullwide ux theme grid col10wide colum" 
+		in
+		data-in-base-class="ux theme grid colum"
+		data-in-mobile-class="col3wide" 
+		data-in-tablet-class="col6wide" 
+		data-in-standard-class="col10wide" 
+		></div>
+
+		<div class="topNav"
+		in
+		data-in-mobile-class="topNavM" 
+		data-in-tablet-class="topNavT"
+		data-in-standard-class="placeholder" >
+				
+				<ul>
+					<a href="/index.html">
+					<li>home</li>
+					</a>
+					<a href="/work.html">
+					<li>work</li>
+					</a>
+					<a href="/about.html">
+					<li>bio</li>
+					</a>
+				</ul>
+
+			</div>
+
+			<div class="sideNav"
+			in
+			data-in-mobile-class="placeholder" 
+			data-in-tablet-class="placeholder"
+			data-in-standard-class="sideNav" >
+				
+				<ul>
+					<a href="/index.html">
+					<li>home</li>
+					</a>
+					<a href="/about.html">
+					<li>bio</li>
+					</a>
+				
+					<a href="/work.html">
+					<li>work</li>
+					</a>
+				</br>
+
+
+				<div class="italics">
+					<a href="/Barnes&Noble.html">
+					<li>Barnes & Noble</li>
+					</a>
+					<a href="/philadelphia.html">
+					<li>Philadelphia</li>
+					</a>
+					<a href="/neutrogena.html">
+					<li>Neutrogena</li>
+					</a>
+					<a href="/ky.html">
+					<li>K-Y</li>
+					</a>
+					<a href="/chase.html">
+					<li>Chase</li>
+					</a>
+					<a href="/jj.html">
+					<li>J&J</li>
+					</a>
+					<a href="/obie.html">
+					<li>o.b.</li>
+					</a>
+					<a href="/RitzCarlton.html">
+					<li>Ritz Carlton</li>
+					</a>
+					<a href="/classics.html">
+					<li>Classics</li>
+					</a>
+				</div>
+				</br>
+
+				</ul>
+
+			</div>
+
+			<div class="brand_container" 
+			in
+			data-in-base-class=""
+			data-in-mobile-class="col3wide" 
+			data-in-tablet-class="col6wide" 
+			data-in-standard-class="col10wide" 
+			>
+
+			<div class="brand_work" onclick="slide();" 
+			in
+			data-in-mobile-class="placeholder"
+			data-in-tablet-class="brand_workT" 
+			data-in-standard-class="brand_work">
+
+			<div class="brand_title" onclick="slide();"
+			in
+			data-in-mobile-class="brand_titleMM"
+			data-in-tablet-class="brand_titleT" 
+			data-in-standard-class="brand_title">Neutrogena</div>
+
+				<div class="main">
+					<iframe src="//player.vimeo.com/video/115072132" width="600" height="337" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				</div>
+				
+				<div class="subright"><h1>Film</h1>
+					<img class="imgA" src="Lynns/neutrogena/ng_03.jpg" width="185" height="auto"><p>▷</p>
+					<img class="imgB" id="rule" src="Lynns/neutrogena/soap.jpg" width="185" height="auto"><p>▷</p>
+					<img class="imgF" id="rule" src="Lynns/neutrogena/jar.png" width="185" height="auto"><p>▷</p>
+
+
+					<!-- <div id="play"></div> -->
+				
+
+				</div>
+				
+				<div class="subbottom"><h1>Print</h1>
+					<img class="imgC" id="rule" src="Lynns/neutrogena/ng_02.jpg" width="185" height="auto">
+					<img class="imgD" id="rule" src="Lynns/neutrogena/ng_04.jpg" width="185" height="auto">
+					
+				</div>
+
+				<div class="digital_screens"><h1>Digital</h1>
+					<img class="imgE" src="Lynns/neutrogena/NeuDigital.png" width="600" height="auto">
+					
+				</div>			
+
+
+			</div>
+
+			<div class="brand_workM"
+			in
+			data-in-mobile-class="brand_workM"
+			data-in-tablet-class="placeholder" 
+			data-in-standard-class="placeholder">
+
+			<div class="brand_title" onclick="slide();"
+			in
+			data-in-mobile-class="brand_titleM"
+			data-in-tablet-class="brand_titleT" 
+			data-in-standard-class="placeholder">Neutrogena</div>
+				
+			<iframe src="//player.vimeo.com/video/115072132" width="600" height="337" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			<img src="Lynns/neutrogena/ng_02.jpg" style="border: 1px solid lightgrey;" width="350" height="auto">
+			<iframe src="//player.vimeo.com/video/115118388" width="600" height="337" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			<img src="Lynns/neutrogena/ng_04.jpg" style="border: 1px solid lightgrey;" width="350" height="auto">
+			<iframe src="//player.vimeo.com/video/115071961" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			<iframe src="//player.vimeo.com/video/116300292" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			<img class="imgE" src="Lynns/neutrogena/NeuDigital.png" width="600" height="auto">
+			<iframe src="//player.vimeo.com/video/116357010" width="600" height="337" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			
+
+
+<script type="text/javascript">
+
+var slides = [
+
+			  
+			  { 
+		        'state' : "Main",
+		        'img' : '<iframe src="//player.vimeo.com/video/115072132" width="600" height="337" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
+		      },
+
+		      { 
+		        'state' : "A",
+		        'img' : '<iframe src="//player.vimeo.com/video/115118388" width="600" height="337" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
+		      },
+
+		     { 
+		        'state' : "B",
+		        'img' : '<iframe src="//player.vimeo.com/video/116300292" width="600" height="337" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
+		      },
+
+		      { 
+		        'state' : "C",
+		        'img' : '<img src="Lynns/neutrogena/ng_02.jpg" width="600" height="400">'
+		      },
+
+		      { 
+		        'state' : "D",
+		        'img' : '<img src="Lynns/neutrogena/ng_04.jpg" width="600" height="425">'
+		      },
+
+		      { 
+		        'state' : "E",
+		        'img' : '<iframe src="//player.vimeo.com/video/116357010" width="600" height="337" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
+		      },
+
+		      { 
+		        'state' : "F",
+		        'img' : '<iframe src="//player.vimeo.com/video/115071961" width="600" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
+		      }
+
+		];
+
+</script>
+<script src="slide.js" type="text/javascript"></script>
+
+	</body>
