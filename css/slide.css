@@ -1,6 +1,23 @@
+.title {
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	top: 40px;
+	left: 5%;
+	background: white;
+	font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight: 100; letter-spacing: 1px;
+   	font-weight: 150;
+   	font-size: 32px;
+}
+
+.title span {
+	color: lightblue;
+	font-style: italic;
+}
+
 .slide {
 	width: 90%;
-	height: 300px;
+	height: 350px;
 	position: absolute;
 	top: 200px;
 	left: 5%;
@@ -22,51 +39,67 @@
 	height: 300px;
 	width: auto;
 	float: left;
-	background: whitesmoke;
+	/*background: whitesmoke;*/
 }
 
 .b {
 	height: 300px;
 	width: auto;
 	float: left;
-	background: azure;
+	/*background: azure;*/
 }
 
 .c {
 	height: 300px;
 	float: left;
 	width: auto;
-	background: beige;
+	/*background: beige;*/
 }
 
 
 
 .imgMod {
+	line-height: 250px;
 	width: auto;
-	height: 100%;
+	height: auto;
 	padding: 10px;
-	border: 1px dashed tomato;
+	/*border: 1px dashed tomato;*/
 	float: left;
 	padding-bottom: 0px;
+	border-right: none; 
+	opacity: 0.9;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-opera-transition: all 0.5s ease;
 }
 
 .imgMod:hover {
-	background: whitesmoke;
+	opacity: 1;
 }
 
 .imgMod img {
-	background: lightgrey;
+	background: white;
+	vertical-align: middle;
+}
+
+.imgMod img:hover {
+	width: 300px;
+	height: auto;
+	-webkit-transition: all 0.8s ease;
+	-moz-transition: all 0.8s ease;
+	-opera-transition: all 0.8s ease;
 }
 
 .sliderBar {
 	position: absolute;
-	top: 200px;
+	top: 250px;
 	width: 100%;
 	border-top: 1px solid lightblue;
 	height: 50px;
 	z-index: 1;
 	background: white;
-	font-family: "andale mono";
+	font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight: 100; letter-spacing: 1px;
+   	font-weight: 150;
 }
 
 .sliderBar .tabA,
@@ -77,13 +110,15 @@
 	height: 50px;
 	background: white;
 	float: left;
-	border-left: 1px solid lightblue;
+	line-height: 40px;
+	text-align: center;
+	/*border-left: 1px solid lightblue;*/
 }
 
 .sliderBar .tabA:hover,
 .sliderBar .tabB:hover,
 .sliderBar .tabC:hover {
-	background: whitesmoke;
+	color: lightblue;
 } 
 
 
