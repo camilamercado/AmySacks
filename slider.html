@@ -53,6 +53,18 @@
 			data-in-standard-class="slide" >
 
 				<div class="imgContent">
+				<div class="a">
+					<div class="imgMod"><img src="" width="100" height="60"></div>
+					<div class="imgMod"><img src="" width="80" height="100"></div>
+					<div class="imgMod"><img src="" width="100" height="40"></div>
+					<div class="imgMod"><img src="" width="60" height="80"></div>
+					<div class="imgMod"><img src="" width="60" height="100"></div>
+					<div class="imgMod"><img src="" width="100" height="100"></div>
+					<div class="imgMod"><img src="" width="60" height="80"></div>
+					<div class="imgMod"><img src="" width="60" height="100"></div>
+		
+				</div>
+				<div class="b">
 					<div class="imgMod"><img src="" width="100" height="60"></div>
 					<div class="imgMod"><img src="" width="80" height="100"></div>
 					<div class="imgMod"><img src="" width="100" height="40"></div>
@@ -67,10 +79,28 @@
 					<div class="imgMod"><img src="" width="100" height="40"></div>
 					<div class="imgMod"><img src="" width="60" height="80"></div>
 				</div>
-				<div class="sliderBar"></div>
+				<div class="c">
+					<div class="imgMod"><img src="" width="100" height="60"></div>
+					<div class="imgMod"><img src="" width="80" height="100"></div>
+					<div class="imgMod"><img src="" width="100" height="40"></div>
+					<div class="imgMod"><img src="" width="60" height="80"></div>
+					<div class="imgMod"><img src="" width="60" height="100"></div>
+					<div class="imgMod"><img src="" width="100" height="100"></div>
+					<div class="imgMod"><img src="" width="60" height="80"></div>
+					<div class="imgMod"><img src="" width="60" height="100"></div>
+					<div class="imgMod"><img src="" width="100" height="100"></div>
+					<div class="imgMod"><img src="" width="100" height="60"></div>
+					<div class="imgMod"><img src="" width="80" height="100"></div>
+					<div class="imgMod"><img src="" width="100" height="40"></div>
+					<div class="imgMod"><img src="" width="60" height="80"></div>
+				</div>
 
-
-				
+				</div>
+				<div class="sliderBar">
+					<div class="tabA" onmouseover="tabA();">A</div>
+					<div class="tabB" onmouseover="tabB();">B</div>
+					<div class="tabC" onmouseover="tabC();">C</div>
+				</div>	
 
 			</div>
 
@@ -79,6 +109,24 @@
 		</div>
 
 
+		<script type="text/javascript">
+		function tabA () {
+			 document.querySelector(".imgContent").style.left="0px";
+			 
+        
+		}
+
+		function tabB () {
+			 document.querySelector(".imgContent").style.left="-796px";
+			
+        
+		}
+		function tabC () {
+			 document.querySelector(".imgContent").style.left="-2142px";
+			 
+		}
+
+		</script>
 
 
 

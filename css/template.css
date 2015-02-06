@@ -24,9 +24,9 @@ src: url("css/HelveticaNeue-UltraLight.otf") format("opentype");
 	color: black;
 
 }
-
+.topNav a,
 .topNavM a {
-	text-decoration: none;
+	text-decoration: none !important;
 }
 
 
