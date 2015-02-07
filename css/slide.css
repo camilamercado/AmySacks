@@ -80,6 +80,7 @@
 .imgMod img {
 	background: white;
 	vertical-align: middle;
+	z-index: 2;
 }
 
 .imgMod img:hover {
