@@ -8,7 +8,11 @@
 
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
 		<link href="intention/examples/grid/css/responsivegrid.css" rel="stylesheet" />
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,100italic,300italic' rel='stylesheet' type='text/css'>
+
 		<script src="intention/test/vendor/underscore.js"></script>
 	    <script src="intention/test/vendor/jquery.js"></script>
 	    <script src="intention/intention.js"></script>
@@ -63,26 +67,52 @@
 		
 				</div>
 				<div class="b">
-					<div class="imgMod"><img src="Brands/neutrogena/ng_01.jpg" width="180" height="auto"></div>
-					<div class="imgMod"><img src="Brands/neutrogena/ng_02.jpg" width="180" height="auto"></div>
+					<div class="imgMod"><img class="rule" src="Brands/neutrogena/ng_01.jpg" width="180" height="auto"></div>
+					<div class="imgMod"><img class="rule" src="Brands/neutrogena/ng_02.jpg" width="180" height="auto"></div>
 					<div class="imgMod"><img src="Brands/neutrogena/ng_03.jpg" width="180" height="auto"></div>
-					<div class="imgMod"><img src="Brands/neutrogena/ng_04.jpg" width="180" height="auto"></div>
+					<div class="imgMod"><img class="rule" src="Brands/neutrogena/ng_04.jpg" width="180" height="auto"></div>
 					<div class="imgMod"><img src="Brands/neutrogena/NeuDigital.png" width="300" height="auto"></div>
 				</div>
 				<div class="c">
 					<div class="imgMod"><img src="Brands/philly/pc_01.jpg" width="180" height="auto"></div>
 					<div class="imgMod"><img src="Brands/philly/pc_02.jpg" width="180" height="auto"></div>
 					<div class="imgMod"><img src="Brands/philly/pc_03.jpg" width="180" height="auto"></div>
-					<div class="imgMod"><img src="Brands/philly/pc_04.jpg" width="150" height="auto"></div>
-					<div class="imgMod"><img src="Brands/philly/pc_05.jpg" width="150" height="auto"></div>
-					<div class="imgMod"><img src="Brands/philly/pc_06.jpg" width="150" height="auto"></div>
+					<div class="imgMod"><img class="rule" src="Brands/philly/pc_04.jpg" width="150" height="auto"></div>
+					<div class="imgMod"><img class="rule" src="Brands/philly/pc_05.jpg" width="150" height="auto"></div>
+					<div class="imgMod"><img class="rule" src="Brands/philly/pc_06.jpg" width="150" height="auto"></div>
 				</div>
+				<div class="d">
+					<div class="imgMod"><img src="Brands/ky/birdkiss.png" width="180" height="auto"></div>
+					<div class="imgMod"><img class="rule" src="Brands/ky/kyvalentine.jpg" width="180" height="auto"></div>
+				</div>
+
+				<div class="e">
+					<div class="imgMod"><img class="rule" src="Brands/chase/Chaseprint1.jpg" width="120" height="auto"></div>
+					<div class="imgMod"><img class="rule" src="Brands/chase/Chaseprint2.jpg" width="120" height="auto"></div>
+					<div class="imgMod"><img class="rule" src="Brands/chase/Chaseprint3.jpg" width="120" height="auto"></div>
+					<div class="imgMod"><img src="Brands/chase/dining.jpg" width="120" height="auto"></div>
+				</div>
+
+				<div class="f">
+					<div class="imgMod"><img src="Brands/splenda/spa1.png" width="180" height="auto"></div>
+					<div class="imgMod"><img src="Brands/splenda/spa3.png" width="180" height="auto"></div>
+					<div class="imgMod"><img src="Brands/splenda/sp1.png" width="120" height="auto"></div>
+					<div class="imgMod"><img src="Brands/splenda/sp3.png" width="120" height="auto"></div>
+					<div class="imgMod"><img src="Brands/splenda/sp5.png" width="120" height="auto"></div>
+					<div class="imgMod"><img src="Brands/splenda/sp2.png" width="120" height="auto"></div>
+					<div class="imgMod"><img src="Brands/splenda/sp4.png" width="120" height="auto"></div>
+				
+				</div>
+
 
 				</div>
 				<div class="sliderBar">
 					<div class="tabA" onmouseover="tabA();">Barnes & Noble</div>
 					<div class="tabB" onmouseover="tabB();">Neutrogena</div>
 					<div class="tabC" onmouseover="tabC();">Philadelphia</div>
+					<div class="tabD" onmouseover="tabD();">K-Y</div>
+					<div class="tabE" onmouseover="tabE();">Chase</div>
+					<div class="tabF" onmouseover="tabF();">Splenda</div>
 				</div>	
 
 			</div>
@@ -96,22 +126,64 @@
 		function tabA () {
 			 document.querySelector(".imgContent").style.left="0px";
 			 document.querySelector(".tabA").style.color="lightblue";
-			 document.querySelector(".tabB").style.color="black";
+			 document.querySelector(".tabE").style.color="black";
+			 document.querySelector(".tabD").style.color="black";
 			 document.querySelector(".tabC").style.color="black";
+			 document.querySelector(".tabB").style.color="black";
+			 document.querySelector(".tabF").style.color="black";
 			 
         
 		}
 
 		function tabB () {
-			 document.querySelector(".imgContent").style.left="-804px";
+			 document.querySelector(".imgContent").style.left="-810px";
 			 document.querySelector(".tabB").style.color="lightblue";
-			 document.querySelector(".tabA").style.color="black";
+			 document.querySelector(".tabE").style.color="black";
+			 document.querySelector(".tabD").style.color="black";
 			 document.querySelector(".tabC").style.color="black";
+			 document.querySelector(".tabF").style.color="black";
+			 document.querySelector(".tabA").style.color="black";
         
 		}
 		function tabC () {
-			 document.querySelector(".imgContent").style.left="-1930px";
+			 document.querySelector(".imgContent").style.left="-1936px";
 			 document.querySelector(".tabC").style.color="lightblue";
+			 document.querySelector(".tabE").style.color="black";
+			 document.querySelector(".tabD").style.color="black";
+			 document.querySelector(".tabF").style.color="black";
+			 document.querySelector(".tabB").style.color="black";
+			 document.querySelector(".tabA").style.color="black";
+			 
+		}
+
+		function tabD () {
+			 document.querySelector(".imgContent").style.left="-3040px";
+			 document.querySelector(".tabD").style.color="lightblue";
+			 document.querySelector(".tabE").style.color="black";
+			 document.querySelector(".tabF").style.color="black";
+			 document.querySelector(".tabC").style.color="black";
+			 document.querySelector(".tabB").style.color="black";
+			 document.querySelector(".tabA").style.color="black";
+			 
+		}
+
+		function tabE () {
+			 document.querySelector(".imgContent").style.left="-3440px";
+			 document.querySelector(".tabE").style.color="lightblue";
+			 document.querySelector(".tabF").style.color="black";
+			 document.querySelector(".tabD").style.color="black";
+			 document.querySelector(".tabC").style.color="black";
+			 document.querySelector(".tabB").style.color="black";
+			 document.querySelector(".tabA").style.color="black";
+			 
+		}
+
+		function tabF () {
+			 document.querySelector(".imgContent").style.left="-4000px";
+			 document.querySelector(".tabF").style.color="lightblue";
+			 document.querySelector(".tabE").style.color="black";
+			 document.querySelector(".tabD").style.color="black";
+			 document.querySelector(".tabC").style.color="black";
 			 document.querySelector(".tabB").style.color="black";
 			 document.querySelector(".tabA").style.color="black";
 			 

@@ -5,55 +5,45 @@
 	top: 40px;
 	left: 5%;
 	background: white;
-	font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight: 100; letter-spacing: 1px;
-   	font-weight: 150;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	font-weight: 300; 
    	font-size: 32px;
 }
 
 .title span {
 	color: lightblue;
+	font-weight: 100; 
 	font-style: italic;
 }
 
 .slide {
 	width: 90%;
-	height: 350px;
+	height: 500px;
 	position: absolute;
-	top: 200px;
+	top: 150px;
 	left: 5%;
 	overflow: hidden;
+
 }
 
 .imgContent{
 
+	z-index: 3;
 	position: absolute;
 	width: 10000px;
-	height: 300px;
+	height: 250px;
 	left: 0px;
-	-webkit-transition: all 2s ease;
-	-moz-transition: all 2s ease;
-	-opera-transition: all 2s ease;
+	-webkit-transition: all 3s ease;
+	-moz-transition: all 3s ease;
+	-opera-transition: all 3s ease;
 }
 
-.a {
-	height: 300px;
+.a,.b,.c,.d,.e,.f {
+	height: 250px;
 	width: auto;
 	float: left;
 	/*background: whitesmoke;*/
-}
-
-.b {
-	height: 300px;
-	width: auto;
-	float: left;
-	/*background: azure;*/
-}
-
-.c {
-	height: 300px;
-	float: left;
-	width: auto;
-	/*background: beige;*/
 }
 
 
@@ -83,6 +73,10 @@
 	z-index: 2;
 }
 
+.imgMod .rule{
+	border:1px solid gainsboro;
+}
+
 .imgMod img:hover {
 	width: 300px;
 	height: auto;
@@ -93,21 +87,27 @@
 
 .sliderBar {
 	position: absolute;
-	top: 250px;
+	top: 300px;
 	width: 100%;
 	border-top: 1px solid lightblue;
 	height: 50px;
 	z-index: 1;
 	background: white;
-	font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight: 100; letter-spacing: 1px;
-   	font-weight: 150;
+	/*font-family: 'Open Sans Condensed', sans-serif;*/
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	/*text-transform: uppercase;*/
+	font-size: 14px;
 }
 
 .sliderBar .tabA,
 .sliderBar .tabB,
-.sliderBar .tabC {
+.sliderBar .tabC,
+.sliderBar .tabD,
+.sliderBar .tabE,
+.sliderBar .tabF  {
 	-webkit-transition: all 1s ease;
-	width: 33.2%;
+	width: 16%;
 	height: 50px;
 	background: white;
 	float: left;
@@ -118,7 +118,10 @@
 
 .sliderBar .tabA:hover,
 .sliderBar .tabB:hover,
-.sliderBar .tabC:hover {
+.sliderBar .tabC:hover,
+.sliderBar .tabD:hover,
+.sliderBar .tabE:hover,
+.sliderBar .tabF:hover {
 	color: lightblue;
 } 
 
