@@ -68,6 +68,7 @@
 }
 
 .imgMod img {
+	height: auto;
 	background: white;
 	vertical-align: middle;
 	z-index: 2;
@@ -78,7 +79,7 @@
 }
 
 .imgMod img:hover {
-	width: 300px;
+	width: 250px;
 	height: auto;
 	-webkit-transition: all 0.8s ease;
 	-moz-transition: all 0.8s ease;
@@ -87,7 +88,7 @@
 
 .sliderBar {
 	position: absolute;
-	top: 300px;
+	top: 400px;
 	width: 100%;
 	border-top: 1px solid lightblue;
 	height: 50px;
