@@ -57,7 +57,7 @@
 	float: left;
 	padding-bottom: 0px;
 	border-right: none; 
-	opacity: 0.9;
+	opacity: 0.85;
 	-webkit-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
 	-opera-transition: all 0.5s ease;
@@ -132,6 +132,9 @@
 	font-size: 20px;
 	float: right;
 	color: lightgrey;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-opera-transition: all 1s ease;
 }
 
 .sliderBar .arrowR {
@@ -141,6 +144,9 @@
 	font-size: 20px;
 	float: left;
 	color: lightgrey;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-opera-transition: all 1s ease;
 }
 
 .sliderBar .tabA,
@@ -150,6 +156,8 @@
 .sliderBar .tabE,
 .sliderBar .tabF  {
 	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-opera-transition: all 1s ease;
 	width: 33%;
 	/*background: white;*/
 	float: left;
