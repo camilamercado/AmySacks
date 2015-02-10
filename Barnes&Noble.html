@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		
+		<link href="css/base.css" rel="stylesheet" />
+		<link href="css/template.css" rel="stylesheet" />
+		<link href="css/test.css" rel="stylesheet" />
+
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<link href="intention/examples/grid/css/responsivegrid.css" rel="stylesheet" />
+		<script src="intention/test/vendor/underscore.js"></script>
+	    <script src="intention/test/vendor/jquery.js"></script>
+	    <script src="intention/intention.js"></script>
+	    <script src="intention/context.js"></script>
+		
+	</head>
+
+	<body in data-in-base-class="" class="standard" data-in-tablet-class="tablet" data-in-standard-class="standard" data-in-mobile-class="mobile">
+
+		<div class="fullwide ux theme grid col10wide colum" 
+		in
+		data-in-base-class="ux theme grid colum"
+		data-in-mobile-class="col3wide" 
+		data-in-tablet-class="col6wide" 
+		data-in-standard-class="col10wide" 
+		></div>
+
+		<div class="topNav"
+		in
+		data-in-mobile-class="topNavM" 
+		data-in-tablet-class="topNavT"
+		data-in-standard-class="placeholder" >
+				
+				<ul>
+					<a href="/index.html">
+					<li>home</li>
+					</a>
+					<a href="/work.html">
+					<li>work</li>
+					</a>
+					<a href="/about.html">
+					<li>bio</li>
+					</a>
+				</ul>
+
+			</div>
+
+			<div class="sideNav"
+			in
+			data-in-mobile-class="placeholder" 
+			data-in-tablet-class="placeholder"
+			data-in-standard-class="sideNav" >
+				
+				<ul>
+					<a href="/index.html">
+					<li>home</li>
+					</a>
+					<a href="/about.html">
+					<li>bio</li>
+					</a>
+				
+					<a href="/work.html">
+					<li>work</li>
+					</a>
+				</br>
+
+
+				<div class="italics">
+					<a href="/Barnes&Noble.html">
+					<li>Barnes & Noble</li>
+					</a>
+					<a href="/philadelphia.html">
+					<li>Philadelphia</li>
+					</a>
+					<a href="/neutrogena.html">
+					<li>Neutrogena</li>
+					</a>
+					<a href="/ky.html">
+					<li>K-Y</li>
+					</a>
+					<a href="/chase.html">
+					<li>Chase</li>
+					</a>
+					<a href="/jj.html">
+					<li>J&J</li>
+					</a>
+					<a href="/obie.html">
+					<li>o.b.</li>
+					</a>
+					<a href="/RitzCarlton.html">
+					<li>Ritz Carlton</li>
+					</a>
+					<a href="/classics.html">
+					<li>Classics</li>
+					</a>
+				</div>
+				</br>
+
+				</ul>
+
+			</div>
+
+			<div class="brand_container" 
+			in
+			data-in-base-class=""
+			data-in-mobile-class="col3wide" 
+			data-in-tablet-class="col6wide" 
+			data-in-standard-class="col10wide" 
+			>
+
+			<div class="brand_work" onclick="slide();" 
+			in
+			data-in-mobile-class="placeholder"
+			data-in-tablet-class="brand_workT" 
+			data-in-standard-class="brand_work">
+
+			<div class="brand_title" onclick="slide();"
+			in
+			data-in-mobile-class="brand_titleMM"
+			data-in-tablet-class="brand_titleT" 
+			data-in-standard-class="brand_title">Barnes & Noble</div>
+
+				<div class="main">
+					<iframe src="//player.vimeo.com/video/115071798" width="750" height="421" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				</div>
+				
+				<!-- <div class="subright">
+					<img class="imgA" id="rule" src="Lynns/ky/kyvalentine.jpg" width="185" height="auto"><p>▷</p>
+					<img class="imgB" id="rule" src="Lynns/ky/kybirds.jpg" width="185" height="auto"><p>▷</p>
+				</div> -->
+				
+
+			</div>
+
+			<div class="brand_workM"
+			in
+			data-in-mobile-class="brand_workM"
+			data-in-tablet-class="placeholder" 
+			data-in-standard-class="placeholder">
+
+			<div class="brand_title" onclick="slide();"
+			in
+			data-in-mobile-class="brand_titleM"
+			data-in-tablet-class="brand_titleT" 
+			data-in-standard-class="placeholder">Barnes & Noble</div>
+				
+			<iframe src="//player.vimeo.com/video/115071798" width="600" height="337" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<script type="text/javascript">
+
+var slides = [
+
+			  
+			  { 
+		        'state' : "Main",
+		        'img'   : '<iframe src="//player.vimeo.com/video/115071798" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
+		      },
+
+		      { 
+		        'state' : "A",
+		        'img'   : ''      
+		      },
+
+		     { 
+		        'state' : "B",
+		        'img'   : ''
+		      },
+
+		      { 
+		        'state' : "C",
+		        'img' : ''
+		      },
+
+		      { 
+		        'state' : "D",
+		        'img' : ''
+		      }
+
+		];
+
+</script>
+<script src="slide.js" type="text/javascript"></script>
+
+	</body>

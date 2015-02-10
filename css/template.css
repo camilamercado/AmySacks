@@ -5,140 +5,201 @@ src: url("css/HelveticaNeue-UltraLight.otf") format("opentype");
 
 .topNav {
 	width: 100%;
-	height: 30px;
-	font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight: 100; letter-spacing: 1px;
-   	font-weight: 150;
+	height: 40px;
+	position: absolute;
+	top: 0px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 12px; 
    	background: white;
-   	border-bottom: 1px dashed black;
+   	border-bottom: 1px solid gainsboro;
+   	z-index: 1;
+   	background: white;
 }
 
 .topNav ul {
-	position: absolute;
-	height: 30px;
 	text-decoration: none;
-	width: 100%;
-	top: -9px;
-	font-size: 20px;
-	text-align: left !important;
-	z-index: 1;
-	color: black;
-
+	position: absolute;
+	right:100px;
+	top: 10px;
+	margin: 0px;
+	text-transform: uppercase;
+	z-index: 2;
 }
-.topNav a,
-.topNavM a {
-	text-decoration: none !important;
-}
-
 
 .topNav ul li {
 	display: inline;
-	margin-right: 15px;
-	color: black ;
+	position: absolute;
+	height: 30px;
+	width: auto;
+	min-width: 120px;
+	color: black;
+	position: relative;
+	float: left;
+	text-align: right;
+	padding-right: 20px;
+	border-right: 1px solid gainsboro;
+	line-height: 52px;
+	/*background: tomato;*/
+	 -webkit-transform: skew(-15deg); 
 }
 
-.topNav li:hover {
+.topNav ul li a {
+
+	text-decoration: none;
+	color: black;
+	
+}
+
+.topNav li a:hover {
 	color: #A8A8A8!important ;
 }
 
-
-.sideNav {
-	top: 160px;
-	width: 170px;
-	/*background: lavender;*/
-	border-right: 1px dashed lightgrey;
-	 
-	position: fixed;
-	margin-left: 50%;
-	left: -550px;
-}
-
-.sideNav ul {
-	text-decoration: none;
-	text-align: right;
-	 list-style-type: none;
-	 color: black ;
-	 margin-right: 10px;
-}
-
-.sideNav a{
-	text-decoration: none;
-	font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight: 100; letter-spacing: 1px;
-   	font-weight: 150;
-   	background: white;
-   	color:black;
-
-}
-
-
-
-.brand_title {
-	width: 100%;
-	height: 250px;
+.topNav .dropDown  {
+	/*display: none;*/
 	position: absolute;
-	font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight: 100; letter-spacing: 1px;
-   	font-weight: 150;
-   	font-size: 28px;
-   	text-align: center;
-   	top: 18%;
-   	/*margin-top: -10px;*/
+	height: 30px;
+	text-decoration: none;
+	width: 100%;
+	top: 0px;
+	font-size: 12px;
+	text-align: left !important;
+	z-index: 0;
+	background: whitesmoke;
+	-webkit-transition: all 2s ease;
+	-moz-transition: all 2s ease;
+	-opera-transition: all 2s ease;
+
+}
+
+.topNav .dropDown ul{
+	top: 0px;
+	right: 60px;
+
+}
+
+.topNav .dropDpwn ul li {
+	border-right: 1px solid white !important;
+	color: red;
 }
 
 
-.brand_work {
+.topNav .dropDown ul a{
+	color: black;
 
-	width: 600px;
+}
+
+.title {
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	top: 0px;
+	left: 0px;
+	padding-left: 50px;
+	background: white;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	font-weight: 300; 
+   	font-size: 24px;
+   	z-index: 1;
+   	line-height: 61px;
+}
+
+.title span {
+	color: lightgrey;
+	font-weight: 100; 
+	font-style: italic;
+}
+
+.container {
+	width: 100%;
+	height: 800px;
+	position: absolute;
+	top: 100px;
+	padding-left: 6%;
+}
+
+.brandWork {
+	padding-left: 20px;
+	width: 85%;
+	/*border: 1px solid tomato;*/
+	background: white;
 	height: auto;
 	min-height: 800px;
-	position: absolute;
-	margin-left: 50%;
-	left: -300px;
-	/*background: lavender;*/
-	top: 18%;
 }
 
-/*.brand_work .main img,
-.brand_work .main video {
-	margin-bottom: -4px;
-}
-
-.brand_work .subright img {
+.brandWork .brand_title {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 24px; 
 	margin-bottom: 20px;
-}*/
-
-
-/**************************TABLET*****************************/
-.topNavT {
 	width: 100%;
-	height: 30px;
-	font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight: 100; letter-spacing: 1px;
-   	font-weight: 150;
-   	background: white;
-   	border-bottom: 1px dashed lightgrey;
 }
 
-.topNavT ul {
-	position: absolute;
-	height: 30px;
-	text-decoration: none;
+.brandWork .main {
+	padding-top: 0px;
+	/*border: 1px solid blue;*/
+	width: auto;
+	float: left;
+	margin-right: 40px;
+}
+
+
+.main img {
+	width: auto;
+	height: 420px;
+	border: 1px solid gainsboro;
+}
+
+
+.brandWork .subright {
+	/*padding-top: 10px;*/
+	padding-left: 40px;
+	/*border-left: 1px dashed gainsboro;*/
+	width: 20%;
+	float: left;
+	height: 430px;
+}
+
+.brandWork .subright img {
+	width: 200px;
+	height: auto;
+	margin-bottom: 20px;
+	margin-right: 20%;
+	border: 1px solid gainsboro;
+}
+
+.brandWork .subbottom {
+	margin-top: 40px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	/*border-top: 1px dashed black;*/
 	width: 100%;
-	top: 2px;
-	font-size: 15px;
-	text-align: left !important;
-	z-index: 1;
-
+	float: left;
+	height: auto;
 }
 
-.topNavT a {
-	text-decoration: none;
+.brandWork .subbottom img {
+	margin-right: 20px;
+	width: 250px;
+	height: auto;
+	border: 1px solid gainsboro;
 }
 
-.topNavT ul li {
-	display: inline;
-	margin-right: 30px;
-	color: #A8A8A8 ;
+.brandWork .digital {
+	padding-top: 20px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid gainsboro;
+	width: 100%;
+	float: left;
+	height: auto;
 }
 
-.topNavT li:hover {
-	color: black!important ;
+.brandWork .digital img {
+	margin-right: 20px;
+	width: 450px;
+	height: auto;
 }
+
+
 
