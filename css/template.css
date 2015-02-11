@@ -15,13 +15,14 @@ body {
 	height: 800px;
 	position: absolute;
 	top: 100px;
-	padding-left: 8%;
 }
 
 .brandWork {
 	padding-left: 20px;
-	width: 85%;
-	/*border: 1px solid tomato;*/
+	width: 900px;
+	position: absolute;
+	left: -450px;
+	margin-left: 50%;
 	background: white;
 	height: auto;
 	min-height: 800px;
@@ -123,7 +124,7 @@ p {
 	left: -280px;
 	margin-left: 50%;
 	background: white;
-	height: auto;
+	height: 800px;
 	min-height: 800px;
 }
 
@@ -229,7 +230,8 @@ p {
 	top: 30px;
 	padding-left: 0px;
 	background: white;
-	padding-top: 40px;
+	padding-top: 80px;
+	z-index: 0;
 }
 
 .containM p {

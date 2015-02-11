@@ -42,7 +42,11 @@
 					
 					<li><a href="">bio</a></li>
 					
-					<li onmouseover="drop();"><a href="">brands</a></li>
+					<li in onmouseover="drop();"
+					data-in-mobile-onmouseover="dropM();" 
+					data-in-tablet-onmouseover="drop();"
+					data-in-standard-onmouseover="drop();"><a href="">brands</a></li>
+
 					
 
 				</ul>
@@ -64,11 +68,15 @@
 					</ul>
 				</div>
 
+
+
 				<div class="container"  onmouseover="rise();"
 				in
-				data-in-mobile-class="containM" 
+				data-in-mobile-class="containM"
+				data-in-mobile-onmouseover="riseM();" 
 				data-in-tablet-class="containT"
-				data-in-standard-class="" >
+				data-in-tablet-onmouseover="rise();" 
+				data-in-standard-onmouseover="rise();" >
 
 					<div class="brandWork"
 					in
@@ -115,12 +123,21 @@
 		<script type="text/javascript">
 
 		function drop () {
-			 document.querySelector(".dropDown").style.top="40px";
+			document.querySelector(".dropDown").style.top="40px";
 			
 		}
 
 		function rise () {
-			 document.querySelector(".dropDown").style.top="0px";
+			document.querySelector(".dropDown").style.top="-40px";
+		}
+
+		function dropM () {
+			document.querySelector(".dropDown").style.top="20px";
+			
+		}
+
+		function riseM () {
+			document.querySelector(".dropDown").style.top="-200px";
 		}
 
 		</script>

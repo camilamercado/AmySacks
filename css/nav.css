@@ -57,7 +57,7 @@
 	height: 30px;
 	text-decoration: none;
 	width: 100%;
-	top: 0px;
+	top: -200px;
 	font-size: 12px;
 	text-align: left !important;
 	z-index: 0;
@@ -166,10 +166,10 @@
 .topNavT .dropDown  {
 	/*display: none;*/
 	position: absolute;
-	height: 30px;
+	max-height: 30px;
 	text-decoration: none;
 	width: 100%;
-	top: 0px;
+	/*top: -200px;*/
 	font-size: 10px;
 	text-align: left !important;
 	z-index: 0;
@@ -214,6 +214,116 @@
    	line-height: 67px;
 }
 
+
+.title span {
+	color: lightgrey;
+	font-weight: 100; 
+	font-style: italic;
+}
+
+
+/*MOBILE*/
+
+
+.topNavM{
+	width: 100%;
+	height: 40px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 12px; 
+   	background: white;
+   	border-bottom: 1px solid gainsboro;
+   	z-index: 2;
+
+}
+
+.topNavM ul {
+	text-decoration: none;
+	position: absolute;
+	margin: 0px;
+	left: 0px;
+	text-transform: uppercase;
+	z-index: 2;
+	height: 20px;
+	width: 100%;
+	margin-left: -40px !important;
+	top: 40px;
+	list-style-type: none;
+	border-bottom: 1px solid white;
+	background: gainsboro;
+	text-align: right;
+
+}
+
+.topNavM ul li {
+	display: inline;
+	text-decoration: none;
+	position: absolute;
+	color: black;
+	position: relative;
+	/*float: left;*/
+	text-align: right;
+	padding-right: 10px;
+	width: 30px;
+	line-height: 20px;
+	font-style: italic;
+
+	
+}
+
+.topNavM ul li a {
+
+	text-decoration: none;
+	color: black;
+	margin-left: 20px;
+	
+}
+
+.topNavM li a:hover {
+	color: #A8A8A8!important ;
+}
+
+.topNavM .dropDown  {
+	position: absolute;
+	text-decoration: none;
+	position: absolute;
+	top: -200px;
+	z-index: 1;
+	height: 181px;
+	width: 100%;
+	-webkit-transition: all 2s ease;
+	-moz-transition: all 2s ease;
+	-opera-transition: all 2s ease;
+}
+
+.topNavM .dropDown ul{
+	margin-top:0px;
+	width: 100%;
+	height: auto;
+	padding-top: 10px;
+
+}
+
+.topNavM .dropDown ul li {
+	border-right: 1px solid white !important;
+	color: red;
+	width: 100%;
+	background: gainsboro;
+	height: 30px;
+	display: list-item!important;
+	text-align: left;
+}
+
+
+.topNavM .dropDown ul a{
+	color: black;
+
+}
+
+
 .topNavM .title {
 	position: absolute;
 	width: 100%;
@@ -226,7 +336,7 @@
 	text-transform: uppercase;
 	font-weight: 300; 
    	font-size: 16px;
-   	z-index: 1;
+   	z-index: 2;
    	line-height: 67px;
 }
 
