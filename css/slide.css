@@ -21,7 +21,7 @@
 	width: 90%;
 	height: 500px;
 	position: absolute;
-	top: 150px;
+	top: 200px;
 	left: 5%;
 	overflow: hidden;
 
@@ -79,17 +79,17 @@
 }
 
 .imgMod img:hover {
-	height: 350px;
+	/*height: 350px;
 	width: auto;
 	/*height: auto;*/
 	-webkit-transition: all 1s ease;
 	-moz-transition: all 1s ease;
-	-opera-transition: all 1s ease;
+	-opera-transition: all 1s ease;*/
 }
 
 .sliderBar {
 	position: absolute;
-	top: 400px;
+	top: 300px;
 	width: 100%;
 	border-top: 1px solid lightgrey;
 	height: 50px;

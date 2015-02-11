@@ -2,121 +2,20 @@
 font-family: HelveticaNeue-Light;
 src: url("css/HelveticaNeue-UltraLight.otf") format("opentype");
 }
-
-.topNav {
+body {
 	width: 100%;
-	height: 40px;
+	height: 100%;
 	position: absolute;
-	top: 0px;
-	font-family: 'Lato', sans-serif;
-	font-weight: 300;
-	font-size: 12px; 
-   	background: white;
-   	border-bottom: 1px solid gainsboro;
-   	z-index: 1;
-   	background: white;
-}
-
-.topNav ul {
-	text-decoration: none;
-	position: absolute;
-	right:100px;
-	top: 10px;
-	margin: 0px;
-	text-transform: uppercase;
-	z-index: 2;
-}
-
-.topNav ul li {
-	display: inline;
-	position: absolute;
-	height: 30px;
-	width: auto;
-	min-width: 120px;
-	color: black;
-	position: relative;
-	float: left;
-	text-align: right;
-	padding-right: 20px;
-	border-right: 1px solid gainsboro;
-	line-height: 52px;
-	/*background: tomato;*/
-	 -webkit-transform: skew(-15deg); 
-}
-
-.topNav ul li a {
-
-	text-decoration: none;
-	color: black;
-	
-}
-
-.topNav li a:hover {
-	color: #A8A8A8!important ;
-}
-
-.topNav .dropDown  {
-	/*display: none;*/
-	position: absolute;
-	height: 30px;
-	text-decoration: none;
-	width: 100%;
-	top: 0px;
-	font-size: 12px;
-	text-align: left !important;
-	z-index: 0;
-	background: whitesmoke;
-	-webkit-transition: all 2s ease;
-	-moz-transition: all 2s ease;
-	-opera-transition: all 2s ease;
-
-}
-
-.topNav .dropDown ul{
-	top: 0px;
-	right: 60px;
-
-}
-
-.topNav .dropDpwn ul li {
-	border-right: 1px solid white !important;
-	color: red;
-}
-
-
-.topNav .dropDown ul a{
-	color: black;
-
-}
-
-.title {
-	position: absolute;
-	width: 100%;
-	height: 40px;
 	top: 0px;
 	left: 0px;
-	padding-left: 50px;
 	background: white;
-	font-family: 'Lato', sans-serif;
-	text-transform: uppercase;
-	font-weight: 300; 
-   	font-size: 24px;
-   	z-index: 1;
-   	line-height: 61px;
 }
-
-.title span {
-	color: lightgrey;
-	font-weight: 100; 
-	font-style: italic;
-}
-
 .container {
 	width: 100%;
 	height: 800px;
 	position: absolute;
 	top: 100px;
-	padding-left: 6%;
+	padding-left: 8%;
 }
 
 .brandWork {
@@ -141,20 +40,20 @@ src: url("css/HelveticaNeue-UltraLight.otf") format("opentype");
 	/*border: 1px solid blue;*/
 	width: auto;
 	float: left;
-	margin-right: 40px;
+	margin-right: 5%;
 }
 
 
 .main img {
 	width: auto;
-	height: 420px;
+	width: 650px;
 	border: 1px solid gainsboro;
 }
 
 
 .brandWork .subright {
 	/*padding-top: 10px;*/
-	padding-left: 40px;
+	/*padding-left: 40px;*/
 	/*border-left: 1px dashed gainsboro;*/
 	width: 20%;
 	float: left;
@@ -183,16 +82,15 @@ src: url("css/HelveticaNeue-UltraLight.otf") format("opentype");
 	margin-right: 20px;
 	width: 250px;
 	height: auto;
+}
+
+.brandWork .rule {
 	border: 1px solid gainsboro;
 }
 
-.brandWork .digital {
-	padding-top: 20px;
-	padding-bottom: 40px;
-	border-bottom: 1px solid gainsboro;
-	width: 100%;
-	float: left;
-	height: auto;
+.brandWork .subbottom .digital{
+	height: 169px!important;
+	width: auto;
 }
 
 .brandWork .digital img {
@@ -200,6 +98,229 @@ src: url("css/HelveticaNeue-UltraLight.otf") format("opentype");
 	width: 450px;
 	height: auto;
 }
+
+p {
+	display: none;
+}
+
+/*TABLET */
+
+ .containT {
+	width: 100%;
+	height: 800px;
+	position: absolute;
+	top: 100px;
+	padding-left: 0px;
+}
+
+.containT p {
+	display: block;
+}
+
+.brandWorkT {
+	width: 560px;
+	position: absolute;
+	left: -280px;
+	margin-left: 50%;
+	background: white;
+	height: auto;
+	min-height: 800px;
+}
+
+.brandWorkT .brand_title {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 24px; 
+	margin-bottom: 20px;
+	width: 100%;
+	color: black;
+}
+
+
+.brandWorkT .main {
+	padding-top: 0px;
+	width: auto;
+	float: left;
+	margin-bottom: 80px;
+}
+
+
+.brandWorkT .main img {
+	width: auto;
+	width: 500px;
+	border: 1px solid gainsboro;
+}
+
+
+.brandWorkT .subright {
+	width: 500px;
+	float: left;
+	height: auto;
+	border-top: 1px solid gainsboro;
+	padding-top: 40px;
+	margin-bottom: 40px;
+}
+
+.brandWorkT .subright p{
+	font-size: 20px;
+	position: absolute;
+	margin-top:-70px;
+	right: 90px;
+	font-style: italic;
+	color: gainsboro;
+}
+
+.brandWorkT .subright img {
+	width: 144px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 0px;	
+	border: 1px solid gainsboro;
+}
+
+.brandWorkT .subbottom {
+	margin-top: 40px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-top: 1px solid gainsboro;
+	width: 500px;
+	float: left;
+	height: auto;
+}
+
+.brandWorkT .subbottom img {
+	margin-right: 20px;
+	width: 144px;
+	height: auto;
+}
+
+.brandWork .rule {
+	border: 1px solid gainsboro;
+}
+
+.brandWorkT .subbottom .digital{
+	width: 162px;
+	height: auto !important;
+	margin-right: 0px;
+}
+
+.brandWorkT img .digital{
+	margin-right: 0px!important;
+	width: 450px;
+	height: auto;
+}
+
+.brandWorkT .subbottom p{
+	font-size: 20px;
+	position: absolute;
+	margin-top:-180px;
+	right: 90px;
+	font-style: italic;
+	color: gainsboro;
+}
+
+
+/*MOBILE */
+
+ .containM {
+	width: 100%;
+	height: 800px;
+	position: absolute;
+	top: 30px;
+	padding-left: 0px;
+	background: white;
+	padding-top: 40px;
+}
+
+.containM p {
+	display: block;
+}
+
+.brandWorkM {
+	width: 350px;
+	position: absolute;
+	left: -190px;
+	margin-left: 50%;
+	/*border: 1px solid lavender;*/
+	background: white;
+	height: auto;
+	min-height: 800px;
+}
+
+.brandWorkM .brand_title {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 18px; 
+	margin-bottom: 20px;
+	width: 100%;
+	color: black;
+}
+
+
+.brandWorkM .main {
+	padding-top: 0px;
+	width: auto;
+	float: left;
+	margin-bottom: 0px;
+}
+
+
+.brandWorkM  .main img {
+	width: 320px;
+	border: 1px solid gainsboro;
+	margin-bottom: 20px;
+}
+
+
+.brandWorkM .subright {
+	width: 100%;
+	float: left;
+	height: auto;
+	padding-top: 0px;
+	margin-bottom: 0px;
+}
+
+.brandWorkM .subright p{
+	font-size: 20px;
+	position: absolute;
+	margin-top:-70px;
+	right: 90px;
+	font-style: italic;
+	color: gainsboro;
+}
+
+.brandWorkM .subright img {
+	width: 320px !important;
+	float: left;
+	margin-right: 0px;
+	margin-bottom: 20px;	
+	border: 1px solid gainsboro;
+}
+
+.brandWorkM .subbottom {
+	width: 100%;
+	float: left;
+	height: auto;
+	padding-top: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.brandWorkM .subbottom img {
+	width: 320px !important;
+	float: left;
+	margin-right: 0px;
+	margin-bottom: 20px;	
+	border: 1px solid gainsboro;
+}
+
+
+.brandWorkM p{
+	display: none;
+}
+
+
+
 
 
 
