@@ -340,8 +340,8 @@
    	line-height: 67px;
 }
 
-.title span {
-	color: lightgrey;
+.topNavM .title span {
+	color: grey;
 	font-weight: 100; 
 	font-style: italic;
 }

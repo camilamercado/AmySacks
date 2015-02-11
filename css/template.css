@@ -239,9 +239,9 @@ p {
 }
 
 .brandWorkM {
-	width: 350px;
+	width: 300px;
 	position: absolute;
-	left: -190px;
+	left: -182px;
 	margin-left: 50%;
 	/*border: 1px solid lavender;*/
 	background: white;
@@ -257,7 +257,6 @@ p {
 	width: 100%;
 	color: black;
 }
-
 
 .brandWorkM .main {
 	padding-top: 0px;
