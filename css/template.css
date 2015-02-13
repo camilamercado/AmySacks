@@ -47,7 +47,7 @@ body {
 
 .main img {
 	/*width: auto;*/
-	border: 1px solid gainsboro;
+	/*border: 1px solid gainsboro;*/
 }
 
 
@@ -99,7 +99,7 @@ body {
 	height: auto;
 }
 
-.brandWork .rule {
+.brandWork #rule {
 	border: 1px solid gainsboro;
 }
 
@@ -228,7 +228,7 @@ p {
 	height: auto;
 }
 
-.brandWork .rule {
+.brandWork #rule {
 	border: 1px solid gainsboro;
 }
 

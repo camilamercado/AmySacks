@@ -86,15 +86,15 @@
 						data-in-standard-class="brand_title">Chase Michelin</div>
 
 							<div class="main">
-								<div class="imgMod"><img src="Brands/chase/Chaseprint1.jpg" width="500" height="auto"></div>
+								<div class="imgMod"><img id="rule" src="Brands/chase/Chaseprint1.jpg" width="500" height="auto"></div>
 							</div>
 
-							<div class="subright" id="chase">
+							<div class="subright" id="chase" onclick="slide();">
 								
-								<img src="Brands/chase/Chaseprint2.jpg" width="150" height="auto">
-								<img src="Brands/chase/Chaseprint3.jpg" width="150" height="auto">
-								<img src="Brands/chase/dining.jpg" width="250" height="auto">
-								<img src="Brands/chase/ChaseDigital0.png" width="250" height="auto">
+								<img class="imgA"src="Brands/chase/Chaseprint2.jpg" width="150" height="auto">
+								<img class="imgB"src="Brands/chase/Chaseprint3.jpg" width="150" height="auto">
+								<img class="imgC"src="Brands/chase/dining.jpg" width="250" height="auto">
+								<img class="digital" src="Brands/chase/ChaseDigital0.png" width="250" height="auto">
 								<p>Print / Digital<p>
 							</div>
 
@@ -121,25 +121,51 @@
 
 		<script type="text/javascript">
 
-		function drop () {
-			document.querySelector(".dropDown").style.top="40px";
-			
-		}
+var slides = [
 
-		function rise () {
-			document.querySelector(".dropDown").style.top="-40px";
-		}
+			  
+			  { 
+		        'state' : "Main",
+		        'img'   : '<img id="rule" src="Brands/chase/Chaseprint1.jpg" width="500" height="auto">'
+		      },
 
-		function dropM () {
-			document.querySelector(".dropDown").style.top="20px";
-			
-		}
+		      { 
+		        'state' : "A",
+		        'img'   : '<img id="rule" src="Brands/chase/Chaseprint2.jpg" width="500" height="auto">'      
+		      },
 
-		function riseM () {
-			document.querySelector(".dropDown").style.top="-200px";
-		}
+		      { 
+		        'state' : "B",
+		        'img'   : '<img id="rule" src="Brands/chase/Chaseprint3.jpg" width="500" height="auto">'      
+		      },
 
-		</script>
+		      { 
+		        'state' : "C",
+		        'img'   : '<img src="Brands/chase/dining.jpg" width="500" height="auto">'      
+		      },
+
+		      { 
+		        'state' : "slideD",
+		        'img' : '<img class="slideDigital" onclick="slideD();" src="Brands/chase/ChaseDigital0.png" width="500" height="auto"><p onclick="slideD();">▷</p>',
+		         frames : [
+
+			          { 
+			            img : "Brands/chase/ChaseDigital0.png"
+			          },
+
+			          { 
+			            img : "Brands/chase/ChaseDigital1.png"
+			          }
+			    ]
+		      }
+
+		];
+
+</script>
+<script src="js/slide.js" type="text/javascript"></script>
+
+
+	</body>
 
 
 	</body>
