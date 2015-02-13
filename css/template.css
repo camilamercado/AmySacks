@@ -46,8 +46,7 @@ body {
 
 
 .main img {
-	width: auto;
-	width: 650px;
+	/*width: auto;*/
 	border: 1px solid gainsboro;
 }
 
@@ -62,15 +61,30 @@ body {
 }
 
 .brandWork .subright img {
-	width: 200px;
+	/*width: 200px;*/
 	height: auto;
 	margin-bottom: 20px;
 	margin-right: 20%;
 	border: 1px solid gainsboro;
 }
 
+.brandWork #chase  {
+	
+	width: 350px;
+	float: left;
+	height: 430px;
+}
+
+.brandWork #chase img  {
+	/*width: 150px;*/
+	height: auto;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	border: 1px solid gainsboro;
+}
+
 .brandWork .subbottom {
-	margin-top: 40px;
+	margin-top: 20px;
 	padding-top: 20px;
 	padding-bottom: 40px;
 	/*border-top: 1px dashed black;*/
@@ -81,7 +95,7 @@ body {
 
 .brandWork .subbottom img {
 	margin-right: 20px;
-	width: 250px;
+	/*width: 250px;*/
 	height: auto;
 }
 
@@ -90,13 +104,14 @@ body {
 }
 
 .brandWork .subbottom .digital{
-	height: 169px!important;
-	width: auto;
+	vertical-align: top;
+	/*height: 169px!important;
+	width: auto;*/
 }
 
 .brandWork .digital img {
 	margin-right: 20px;
-	width: 450px;
+	/*width: 450px;*/
 	height: auto;
 }
 
@@ -179,6 +194,23 @@ p {
 	border: 1px solid gainsboro;
 }
 
+.brandWorkT #chase  {
+	width: 500px;
+	
+	height: auto;
+	border-top: 1px solid gainsboro;
+	padding-top: 40px;
+	margin-bottom: 40px;
+}
+
+.brandWorkT #chase img  {
+	width: 144px;
+	float: right;
+	margin-right: 20px;
+	margin-bottom: 80px;	
+	border: 1px solid gainsboro;
+}
+
 .brandWorkT .subbottom {
 	margin-top: 40px;
 	padding-top: 40px;
@@ -190,7 +222,8 @@ p {
 }
 
 .brandWorkT .subbottom img {
-	margin-right: 20px;
+	margin-right: 19px;
+	margin-bottom: 40px;
 	width: 144px;
 	height: auto;
 }
@@ -200,7 +233,7 @@ p {
 }
 
 .brandWorkT .subbottom .digital{
-	width: 162px;
+	width: 400px;
 	height: auto !important;
 	margin-right: 0px;
 }

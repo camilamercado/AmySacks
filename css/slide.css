@@ -21,7 +21,7 @@
 	width: 90%;
 	height: 500px;
 	position: absolute;
-	top: 200px;
+	top: 250px;
 	left: 5%;
 	overflow: hidden;
 
@@ -49,7 +49,7 @@
 
 
 .imgMod {
-	line-height: 250px;
+	/*line-height: 250px;*/
 	width: auto;
 	height: auto;
 	padding: 10px;
@@ -70,7 +70,7 @@
 .imgMod img {
 	/*height: auto;*/
 	background: white;
-	vertical-align: middle;
+	/*vertical-align: middle;*/
 	z-index: 2;
 }
 
@@ -89,7 +89,7 @@
 
 .sliderBar {
 	position: absolute;
-	top: 300px;
+	top: 250px;
 	width: 100%;
 	border-top: 1px solid lightgrey;
 	height: 50px;

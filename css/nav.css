@@ -47,6 +47,10 @@
 	
 }
 
+.topNav li :hover {
+	color: #A8A8A8!important ;
+}
+
 .topNav li a:hover {
 	color: #A8A8A8!important ;
 }
