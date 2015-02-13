@@ -89,19 +89,19 @@
 								<div class="imgMod"><img src="Brands/splenda/spa3.png" width="650" height="auto"></div>
 							</div>
 
-							<div class="subright">
+							<div class="subright" onclick="slide();">
 								
-								<img src="Brands/splenda/spa7.png" width="200" height="auto">
-								<img src="Brands/splenda/spa6.png" width="200" height="auto">
+								<img class="imgA" src="Brands/splenda/spa7.png" width="200" height="auto">
+								<img class="imgB" src="Brands/splenda/spa6.png" width="200" height="auto">
 								<p>Film<p>
 							</div>
 
-							<div class="subbottom">
-								<img src="Brands/splenda/sp1.png" width="120" height="163">
-								<img src="Brands/splenda/sp3.png" width="120" height="163">
-								<img src="Brands/splenda/sp5.png" width="120" height="163">
-								<img src="Brands/splenda/sp2.png" width="120" height="163">
-								<img src="Brands/splenda/sp4.png" width="120" height="183">
+							<div class="subbottom" onclick="slide();">
+								<img class="imgC"src="Brands/splenda/sp1.png" width="120" height="163">
+								<img class="imgD"src="Brands/splenda/sp3.png" width="120" height="163">
+								<img class="imgE"src="Brands/splenda/sp5.png" width="120" height="163">
+								<img class="imgF"src="Brands/splenda/sp2.png" width="120" height="163">
+								<img class="imgG"src="Brands/splenda/sp4.png" width="120" height="183">
 								<p>Print/Digital<p>
 							</div>
 
@@ -119,25 +119,56 @@
 
 		<script type="text/javascript">
 
-		function drop () {
-			document.querySelector(".dropDown").style.top="40px";
-			
-		}
+var slides = [
 
-		function rise () {
-			document.querySelector(".dropDown").style.top="-40px";
-		}
+			  
+			  { 
+		        'state' : "Main",
+		        'img'   : '<div class="imgMod"><img src="Brands/splenda/spa3.png" width="650" height="auto"></div>'
+		      },
 
-		function dropM () {
-			document.querySelector(".dropDown").style.top="20px";
-			
-		}
+		      { 
+		        'state' : "A",
+		        'img'   : '<div class="imgA"><img src="Brands/splenda/spa7.png" width="650" height="auto"></div>'      
+		      },
 
-		function riseM () {
-			document.querySelector(".dropDown").style.top="-200px";
-		}
+		      { 
+		        'state' : "B",
+		        'img'   : '<div class="imgB"><img src="Brands/splenda/spa6.png" width="650" height="auto"></div>'      
+		      },
 
-		</script>
+		      { 
+		        'state' : "C",
+		        'img'   : '<div class="imgC"><img src="Brands/splenda/sp1.png" width="650" height="auto"></div>'
+		      },
+
+		      { 
+		        'state' : "D",
+		        'img'   : '<div class="imgD"><img src="Brands/splenda/sp3.png" width="650" height="auto"></div>'      
+		      },
+
+		      { 
+		        'state' : "E",
+		        'img'   : '<div class="imgE"><img src="Brands/splenda/sp5.png" width="650" height="auto"></div>'      
+		      },
+
+		      { 
+		        'state' : "F",
+		        'img'   : '<div class="imgF"><img src="Brands/splenda/sp2.png" width="650" height="auto"></div>'
+		      },
+
+		      { 
+		        'state' : "G",
+		        'img'   : '<div class="imgG"><img src="Brands/splenda/sp4.png" width="650" height="auto"></div>'      
+		      }
+
+		];
+
+</script>
+<script src="js/slide.js" type="text/javascript"></script>
+
+
+	</body>
 
 
 	</body>

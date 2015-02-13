@@ -4,7 +4,7 @@ $(".brand_title").click(function(){
   state = "Main";
 });
 
-$(".img_Main").click(function(){
+$(".imgMod").click(function(){
   state = "Main";
 });
 
@@ -14,6 +14,7 @@ $(".imgA").click(function(){
 
 $(".imgB").click(function(){
   state = "B";
+  console.log(state);
 });
 
 $(".imgC").click(function(){
@@ -45,6 +46,9 @@ $(".slideD").click(function(){
   state = "slideD";
 });
 
+$(".digital").click(function(){
+  state = "slideD";
+});
 
 var counter = 0;
 
@@ -54,9 +58,9 @@ function slide () {
         
       if(slides[i].state === state ) {
 
-        //console.log(slides[i].img);
-        $('.main').empty();
-        $('.main').prepend(slides[i].img); 
+        console.log(slides[i].img);
+        $('.imgMod').empty();
+        $('.imgMod').prepend(slides[i].img); 
       
       }       
               
@@ -84,7 +88,25 @@ var counter = 0;
   };
 };
 
+// NAVIGATION
 
+function drop () {
+      document.querySelector(".dropDown").style.top="40px";
+      
+}
+
+function rise () {
+  document.querySelector(".dropDown").style.top="-40px";
+}
+
+function dropM () {
+  document.querySelector(".dropDown").style.top="20px";
+  
+}
+
+function riseM () {
+  document.querySelector(".dropDown").style.top="-200px";
+}
 
          
 
