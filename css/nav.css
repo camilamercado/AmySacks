@@ -66,9 +66,9 @@
 	text-align: left !important;
 	z-index: 0;
 	background: whitesmoke;
-	-webkit-transition: all 2s ease;
-	-moz-transition: all 2s ease;
-	-opera-transition: all 2s ease;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-opera-transition: all 1s ease;
 
 }
 
