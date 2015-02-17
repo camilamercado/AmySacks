@@ -1,0 +1,252 @@
+
+
+.about {
+
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+   	line-height: 14px;
+	width: 900px;
+	height: auto;
+	position: absolute;
+	top: 12%;
+	margin-left: 50%;
+	left: -470px;
+	padding: 20px;
+
+}
+
+.biopic {
+	
+	width:250px;
+	height: 250px;
+	background-size: 250px 250px;
+	background-image:url(ww.png);
+	float: left;
+}
+
+.contact {
+	
+	font-family: font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight: 100; letter-spacing: 1px;
+	position: absolute;
+	top: 200px;
+	width: 250px;
+	height: 100px;
+	color: #A8A8A8 ;
+	font-size: 11px;
+	text-align: right;
+	float: left;
+}
+
+
+.fullText{
+	
+	width: 600px;
+	height: auto;
+	font-size: 14px;
+	float: left;
+	margin-left: 40px;
+	letter-spacing: 1px;
+	line-height: 19px;
+}
+
+.clients{
+	
+	margin-left: 75px;
+	width: 88%;
+	height: 200px;
+	position: absolute;
+	margin-top: 550px;
+	top: 36%;
+	color: dimgrey;
+	list-style: disc !important;
+}
+
+.clients ul {
+	
+	margin-left: -60px;
+	font-size: 11px;
+	list-style: disc !important;
+}
+
+.clients ul li {
+	
+	line-height: 20px;
+	float: left;
+	margin-left: 23px;
+	list-style-type: disc !important;
+}
+
+li .no-disc{
+
+	padding-left: 0px;
+	list-style-type: none !important;
+}
+
+.bruta {
+	height: 120px;
+	width: 10px;
+	position: absolute;
+	margin-left: 5px;
+	z-index: 1;
+	background: white;
+	/*border: 1px solid tomato;*/
+}
+
+/****************Tablet*****************/
+
+.tAbout {
+
+	/*border:1px solid seagreen;*/
+	width: 100%;
+	height: auto;
+	position: absolute;
+	padding: 20px;
+	left: 0px;
+	margin-left: 0px;
+	padding-left: 8%;
+}
+
+.tAbout .biopic {
+	
+	width:250px;
+	height:250px;
+	background-image:url(ww.png);
+	float: left;
+}
+
+.tAbout .contact {
+	
+	position: relative;
+	top: 0px;
+	margin-left: 20px;
+	width: 50px;
+	height: 165px;
+	font-size: 11px;
+	text-align: left;
+	line-height: 8px;
+	float: left;
+
+}
+
+.tAbout .fullText{
+	
+	width: 85%;
+	height: auto;
+	font-size: 14px;
+	float: left;
+	margin-left: 0px;
+	margin-top: 20px;
+	/*border: 1px solid lavender;*/
+}
+
+.tAbout .clients {
+	
+	width: 70%;
+	height: 200px;
+	position: absolute;
+	top: 650px;
+	left: 20px;
+	/*padding-right: 20px;*/
+	word-wrap: break-word;
+}
+
+.tAbout .clients ul {
+	padding-left: 0px;
+}
+
+.tAbout li {
+	 list-style-type: circle;
+}
+
+
+/****************Mobile*****************/
+
+.mAbout {
+
+	/*border:1px solid seagreen;*/
+	width: 89%;
+	height: auto;
+	position: absolute;
+	padding-top: 0px;
+	left: 0px;
+	margin-left: 0px;
+	padding-left: 8%;
+	margin-top: 80px;
+}
+
+.mAbout .biopic {
+	
+	width:250px;
+	height:250px;
+	background-image:url(ww.png);
+	float: left;
+	margin-left: 10px;
+	margin-top: -40px;
+}
+
+.mAbout .contact {
+	
+	position: absolute;
+	top: 150px;
+	margin-left: 0px;
+	width: 50px;
+	height: 165px;
+	font-size: 11px;
+	text-align: left;
+	line-height: 8px;
+	float: left;
+
+}
+
+.mAbout .fullText{
+	
+	width: 95%;
+	height: auto;
+	font-size: 12px;
+	float: left;
+	margin-left: 0px;
+	margin-top: 40px;
+	/*border: 1px solid lavender;*/
+}
+
+.mAbout .clients {
+	
+	width: 75%;
+	height: 300px;
+	position: absolute;
+	bottom: -340px !important;
+	top: auto;
+	left: 0px;
+	word-wrap: break-word;
+}
+
+.mAbout .clients ul {
+	padding-left: 0px;
+}
+
+.mAbout li {
+	 list-style-type: none;
+}
+
+.mAbout .blocker {
+	height: 100px;
+	width: 20px;
+	background: 1px solid tomato;
+	background: white;
+	bottom: 50px;
+	left: -60px;
+	position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
