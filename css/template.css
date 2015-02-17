@@ -160,6 +160,11 @@ p {
 	margin-bottom: 80px;
 }
 
+.brandWorkT .main iframe {
+	height: 350px;
+	width: 500px;
+	border: 1px solid gainsboro;
+}
 
 .brandWorkT .main img {
 	width: auto;
@@ -306,6 +311,13 @@ p {
 	margin-bottom: 20px;
 }
 
+.brandWorkM  .main iframe {
+	height: 250px;
+	width: 320px;
+	border: 1px solid gainsboro;
+	margin-bottom: 20px;
+}
+
 
 .brandWorkM .subright {
 	width: 100%;
@@ -331,6 +343,8 @@ p {
 	margin-bottom: 20px;	
 	border: 1px solid gainsboro;
 }
+
+
 
 .brandWorkM .subbottom {
 	width: 100%;
