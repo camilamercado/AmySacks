@@ -18,9 +18,9 @@
 .biopic {
 	
 	width:250px;
-	height: 250px;
-	background-size: 250px 250px;
-	background-image:url(ww.png);
+	height: 333px;
+	background-size: 250px 333px;
+	background-image:url(Amy.jpg);
 	float: left;
 }
 
@@ -109,8 +109,9 @@ li .no-disc{
 .tAbout .biopic {
 	
 	width:250px;
-	height:250px;
-	background-image:url(ww.png);
+	height: 333px;
+	background-size: 250px 333px;
+	background-image:url(Amy.jpg);
 	float: left;
 }
 
@@ -177,8 +178,9 @@ li .no-disc{
 .mAbout .biopic {
 	
 	width:250px;
-	height:250px;
-	background-image:url(ww.png);
+	height: 333px;
+	background-size: 250px 333px;
+	background-image:url(Amy.jpg);
 	float: left;
 	margin-left: 10px;
 	margin-top: -40px;
