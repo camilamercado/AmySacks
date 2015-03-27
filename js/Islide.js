@@ -16,6 +16,9 @@
 
 		var f= document.querySelector(".f").offsetWidth ; 
 		var fWidth = "-" + (a + b + c + d + e + f) + "px"; 
+
+		var g= document.querySelector(".g").offsetWidth ; 
+		var gWidth = "-" + (a + b + c + d + e + f + g) + "px";
 		
 
 		function arrowL () {
@@ -25,7 +28,22 @@
 		
 		}
 
+		function arrowL2 () {
+			 document.querySelector(".tabs").style.left="-200%";
+			 document.querySelector(".arrowR").style.display="block";
+			  document.querySelector(".arrowL").style.display="none";
+		
+		}
+
 		function arrowR () {
+			 document.querySelector(".tabs").style.left="0%";
+			  document.querySelector(".arrowL").style.display="block";
+			  document.querySelector(".arrowR").style.display="none";
+			  document.querySelector(".arrowR2").style.display="block";
+		
+		}
+
+		function arrowR2 () {
 			 document.querySelector(".tabs").style.left="0%";
 			  document.querySelector(".arrowL").style.display="block";
 			  document.querySelector(".arrowR").style.display="none";
@@ -57,6 +75,10 @@
 			 document.querySelector(".imgContent").style.left=eWidth;
 		}
 
+		function tabG () {
+			 document.querySelector(".imgContent").style.left=gWidth;
+		}
+
 	
 		$('.tabA , .a').click(function () {
 		    window.location = 'Barnes&Noble.html';
@@ -80,4 +102,8 @@
 
 		$('.tabF , .f').click(function () {
 		    window.location = 'Splenda.html';
+		});
+
+		$('.tabG , .g').click(function () {
+		    window.location = 'Motrin.html';
 		});

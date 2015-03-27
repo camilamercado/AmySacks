@@ -126,7 +126,15 @@
 	margin-left: 50%;
 }
 
-.sliderBar .arrowL {
+.sliderBar .tabs .cTabs {
+	width: 50%;
+	height: 50px;
+	margin-left: 100%;
+	margin-top: -100px;
+}
+
+.sliderBar .arrowL,
+.sliderBar .arrowL2 {
 	width: 50px;
 	height: 10px;
 	font-size: 20px;
@@ -137,8 +145,19 @@
 	-opera-transition: all 1s ease;
 }
 
-.sliderBar .arrowR {
+.sliderBar .arrowR  {
 	display: none;
+	width: 50px;
+	height: 10px;
+	font-size: 20px;
+	float: left;
+	color: lightgrey;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-opera-transition: all 1s ease;
+}
+
+.sliderBar .arrowR2  {
 	width: 50px;
 	height: 10px;
 	font-size: 20px;
@@ -166,12 +185,25 @@
 	/*border-left: 1px solid lightblue;*/
 }
 
+.sliderBar .tabG  {
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-opera-transition: all 1s ease;
+	width: 93%;
+	/*background: white;*/
+	float: left;
+	line-height: 40px;
+	text-align: center;
+	/*border-left: 1px solid lightblue;*/
+}
+
 .sliderBar .tabA:hover,
 .sliderBar .tabB:hover,
 .sliderBar .tabC:hover,
 .sliderBar .tabD:hover,
 .sliderBar .tabE:hover,
-.sliderBar .tabF:hover {
+.sliderBar .tabF:hover,
+.sliderBar .tabG:hover {
 	color: lightgrey;
 } 
 
