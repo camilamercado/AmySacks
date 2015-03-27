@@ -47,6 +47,8 @@
 			 document.querySelector(".tabs").style.left="0%";
 			  document.querySelector(".arrowL").style.display="block";
 			  document.querySelector(".arrowR").style.display="none";
+			  document.querySelector(".arrowR2").style.display="block";
+		
 		
 		}
 
@@ -76,7 +78,7 @@
 		}
 
 		function tabG () {
-			 document.querySelector(".imgContent").style.left=gWidth;
+			 document.querySelector(".imgContent").style.left=fWidth;
 		}
 
 	
