@@ -247,20 +247,23 @@
 }
 
 .mContent .container .Mbio {
-	width: 100%;
+	width: 90%;
 	text-align: right;
 	float: left;
 	margin-bottom: 20px;
-	border-bottom: 1px solid slategrey;
+	font-style: italic;
+	border-bottom: 1px solid grey;
 }
 
 .mContent .container .Mbrands {
-	width: 100%;
+	width: 90%;
+	margin-left: 20px;
 	height: 20px;
 	text-align: left;
 	float: left;
 	margin-bottom: 50px;
-	border-bottom: 1px solid slategrey;
+	font-style: italic;
+	border-bottom: 1px solid grey;
 }
 
 .mContent .container .Mclients .a,
@@ -275,7 +278,7 @@
 	font-size: 14px;
 	line-height:100px;
 	margin-left: 30px;
-	font-style: italic;
+	
 
 }
 
