@@ -287,16 +287,21 @@
 
 }
 
-.mContent .container .Mclients .a a,
-.mContent .container .Mclients .b a,
-.mContent .container .Mclients .c a,
-.mContent .container .Mclients .d a,
-.mContent .container .Mclients .e a,
-.mContent .container .Mclients .f a,
-.mContent .container .Mclients .g a{
+.mContent .container  a {
 	height: 30px;
 	margin-left: 20px;
 	padding: 0px;
+	color: black;
+	text-decoration: none;
+}
+
+
+.mContent .container .Mbio a {
+	color: white;
+}
+
+.mContent .container a:hover {
+	color:lightgrey!important;
 }
 
 .mContent .container .Mclients .a img,
