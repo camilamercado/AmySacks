@@ -145,18 +145,28 @@ li .no-disc{
 	width: 70%;
 	height: 200px;
 	position: absolute;
-	top: 650px;
+	top: 850px;
 	left: 20px;
 	/*padding-right: 20px;*/
 	word-wrap: break-word;
 }
 
 .tAbout .clients ul {
-	padding-left: 0px;
+	padding-left: 15px;
 }
 
 .tAbout li {
 	 list-style-type: circle;
+}
+
+.tAbout .bruta {
+	height: 250px;
+	width: 10px;
+	position: absolute;
+	margin-left: 5px;
+	z-index: 1;
+	background: white;
+	/*border: 1px solid tomato;*/
 }
 
 
@@ -223,7 +233,7 @@ li .no-disc{
 }
 
 .mAbout .clients ul {
-	padding-left: 0px;
+	padding-left: 20px;
 }
 
 .mAbout li {
@@ -241,6 +251,15 @@ li .no-disc{
 }
 
 
+.mAbout .bruta {
+	height: 230px;
+	width: 10px;
+	position: absolute;
+	margin-left: 5px;
+	z-index: 1;
+	background: white;
+	/*border: 1px solid tomato;*/
+}
 
 
 
