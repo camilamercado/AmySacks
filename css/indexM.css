@@ -25,14 +25,17 @@
 
 .mContent .imgContent img{
 
-	 -moz-transform: scale(0.9, 0.9); /* Moz-browsers */
-    zoom: 0.6; /* Other non-webkit browsers */
-    zoom: 60%; /* Webkit browsers */
+	height: 80px;
+	width: auto;
 
 }
 
 .mContent .imgMod {
-	line-height: 150px;
+	line-height: 80px;
+	float: left;
+	width: auto;
+	height: auto;
+	padding: 2px;
 	/*width: auto;
 	height: auto;
 	padding: 10px;
@@ -46,15 +49,15 @@
 	-opera-transition: all 0.5s ease;*/
 }
 
-.sliderBar {
+.mContent .sliderBar {
 	display: none;
 }
 
  
 .mContent .a,.b,.c,.d,.e,.f {
-	height: 120px;
+	height: 86px;
 	width: auto;
-	float: left;
+	float: left !important;
 	overflow: hidden;
 	
 }
