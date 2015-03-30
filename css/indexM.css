@@ -14,24 +14,24 @@
 }
 
 .mContent .imgContent {
-	width: 400px;
-	height: 500px;
+	width: 360px;
+	height: 300px;
 	position: absolute;
 	top: 100px;
 	left: 5%;
-	overflow: hidden!important;
+	/*overflow: hidden!important;*/
 
 }
 
 .mContent .imgContent img{
 
-	height: 80px;
+	height: 50px;
 	width: auto;
 
 }
 
 .mContent .imgMod {
-	line-height: 80px;
+	line-height: 50px;
 	float: left;
 	width: auto;
 	height: auto;
@@ -55,7 +55,7 @@
 
  
 .mContent .a,.b,.c,.d,.e,.f {
-	height: 86px;
+	height: 54px;
 	width: auto;
 	float: left !important;
 	overflow: hidden;
