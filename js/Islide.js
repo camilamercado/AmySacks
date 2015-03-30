@@ -109,3 +109,31 @@
 		$('.tabG , .g').click(function () {
 		    window.location = 'Motrin.html';
 		});
+
+		$('.Mclients , .a').click(function () {
+		    window.location = 'Barnes&Noble.html';
+		});
+
+		$('.Mclients , .b').click(function () {
+		    window.location = 'neutrogena.html';
+		});
+
+		$('.Mclients , .c').click(function () {
+		    window.location = 'Philadelphia.html';
+		});
+
+		$('.Mclients , .d').click(function () {
+		    window.location = 'ky.html';
+		});
+
+		$('.Mclients, .e').click(function () {
+		    window.location = 'chase.html';
+		});
+
+		$('.Mclients , .f').click(function () {
+		    window.location = 'Splenda.html';
+		});
+
+		$('.Mclients , .g').click(function () {
+		    window.location = 'Motrin.html';
+		});

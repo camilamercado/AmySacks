@@ -239,31 +239,35 @@
 }
 
 .mContent .container {
-	width: 90%;
+	width: 100%;
 	position: absolute;
-	left: 20px;
-	top: 150px;
+	left: 0px;
+	top: 120px;
 	background: white;
 }
 
 .mContent .container .Mbio {
-	width: 90%;
+	width: 85%;
 	text-align: right;
 	float: left;
 	margin-bottom: 20px;
 	font-style: italic;
-	border-bottom: 1px solid grey;
+	border-bottom: 1px solid lightgrey;
+	background: lightgrey;
+	color: white;
+	padding-right:15px;
 }
 
 .mContent .container .Mbrands {
-	width: 90%;
+	width: 100%;
 	margin-left: 20px;
 	height: 20px;
 	text-align: left;
 	float: left;
 	margin-bottom: 50px;
 	font-style: italic;
-	border-bottom: 1px solid grey;
+	border-bottom: 1px solid lightgrey;
+	color: lightgrey;
 }
 
 .mContent .container .Mclients .a,
@@ -273,13 +277,26 @@
 .mContent .container .Mclients .e,
 .mContent .container .Mclients .f,
 .mContent .container .Mclients .g{
-	height: 100px;
-	width: 80%;
+	height: 30px;
+	width: 100%;
 	font-size: 14px;
-	line-height:100px;
-	margin-left: 30px;
+	line-height:50px;
+	/*margin-left: 30px;*/
+	margin-bottom: 70px;
 	
 
+}
+
+.mContent .container .Mclients .a a,
+.mContent .container .Mclients .b a,
+.mContent .container .Mclients .c a,
+.mContent .container .Mclients .d a,
+.mContent .container .Mclients .e a,
+.mContent .container .Mclients .f a,
+.mContent .container .Mclients .g a{
+	height: 30px;
+	margin-left: 20px;
+	padding: 0px;
 }
 
 
@@ -291,8 +308,24 @@
 .mContent .container .Mclients .f a,
 .mContent .container .Mclients .g img{
 	float: right;
+	vertical-align: center;
 }
 
+.mContent .container .Mclients .b a,
+.mContent .container .Mclients .d a,
+.mContent .container .Mclients .f a {
+	margin-right: 20px;
+}
+
+/*.mContent .container .Mclients .b img,
+.mContent .container .Mclients .a a,
+.mContent .container .Mclients .d img,
+.mContent .container .Mclients .c a,
+.mContent .container .Mclients .f img,
+.mContent .container .Mclients .e a{
+	margin-top: -20px;
+	vertical-align: center;
+}*/
 
  
 
