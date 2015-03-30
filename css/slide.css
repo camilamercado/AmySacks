@@ -211,6 +211,7 @@
 
 
 .mobile .title {
+	z-index: 1;
 	top: 20px;
 	left: 20px;
 	font-size: 30px;
@@ -230,7 +231,7 @@
 	width: 100%;
 	height: 1000px;
 	left: 0px;
-	z-index: -1;
+	z-index: 0;
 	background:white;
 	font-family: 'Lato', sans-serif;
 	text-transform: uppercase;
@@ -294,18 +295,6 @@
 
 }
 
-.mContent .container .Mclients .a:hover,
-.mContent .container .Mclients .b:hover,
-.mContent .container .Mclients .c:hover,
-.mContent .container .Mclients .d:hover,
-.mContent .container .Mclients .e:hover,
-.mContent .container .Mclients .f:hover,
-.mContent .container .Mclients .g:hover{
-	background: lavender;
-	
-
-}
-
 .mContent .container  a {
 	height: 30px;
 	margin-left: 20px;
@@ -317,6 +306,10 @@
 
 .mContent .container .Mbio a {
 	color: white;
+}
+
+.mContent .container .Mbio a:hover {
+	color: black!important;
 }
 
 .mContent .container a:hover {
