@@ -21,7 +21,7 @@
 	width: 90%;
 	height: 500px;
 	position: absolute;
-	top: 200px;
+	top: 130px;
 	left: 5%;
 	overflow: hidden;
 
@@ -49,7 +49,7 @@
 
 
 .imgMod {
-	line-height: 220px;
+	line-height: 280px;
 	width: auto;
 	height: auto;
 	padding: 10px;
@@ -90,7 +90,7 @@
 
 .sliderBar {
 	position: absolute;
-	top: 350px;
+	top: 400px;
 	width: 100%;
 	border-top: 1px solid lightgrey;
 	height: 50px;
@@ -136,38 +136,46 @@
 
 .sliderBar .arrowL,
 .sliderBar .arrowL2 {
+	position: absolute;
+	z-index: 5;
+	top: 8px;
 	width: 50px;
 	height: 10px;
 	font-size: 20px;
 	float: right;
-	color: lightgrey;
+	color: black;
 	-webkit-transition: all 1s ease;
 	-moz-transition: all 1s ease;
 	-opera-transition: all 1s ease;
+	}
+
+.sliderBar .arrowL {
+	left: 48%;
 }
 
-.sliderBar .arrowR  {
-	display: none;
-	width: 50px;
-	height: 10px;
-	font-size: 20px;
-	float: left;
-	color: lightgrey;
-	-webkit-transition: all 1s ease;
-	-moz-transition: all 1s ease;
-	-opera-transition: all 1s ease;
+.sliderBar .arrowL2 {
+	right: 2px;
 }
 
+.sliderBar .arrowR,
 .sliderBar .arrowR2  {
-	display: none;
+	position: absolute;
+	top: 8px;
 	width: 50px;
 	height: 10px;
 	font-size: 20px;
 	float: left;
-	color: lightgrey;
+	color: black;
 	-webkit-transition: all 1s ease;
 	-moz-transition: all 1s ease;
 	-opera-transition: all 1s ease;
+}
+
+.sliderBar .arrowL:hover, 
+.sliderBar .arrowL2:hover, 
+.sliderBar .arrowR:hover, 
+.sliderBar .arrowR2:hover {
+	color: lightgrey;
 }
 
 .sliderBar .tabA,

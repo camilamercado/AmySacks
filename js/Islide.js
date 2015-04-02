@@ -31,6 +31,7 @@
 		function arrowL2 () {
 			 document.querySelector(".tabs").style.left="-200%";
 			 document.querySelector(".arrowR").style.display="block";
+			 document.querySelector(".arrowR2").style.display="block";
 			  document.querySelector(".arrowL").style.display="none";
 		
 		}
